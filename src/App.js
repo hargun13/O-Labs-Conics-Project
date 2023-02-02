@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Theory from './components/Theory';
+import Animation from './components/Animation';
+import Simulation from './components/Simulation';
+import Self_Evaluation from './components/Self_Evaluation';
+import Reference from './components/Reference';
+import Feedback from './components/Feedback';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/Theory' element={<Theory />}/>
+        <Route path='/Animation' element={<Animation />}/>
+        <Route path='/Simulation' element={<Simulation />}/>
+        <Route path='/SelfEvaluation' element={<Self_Evaluation />}/>
+        <Route path='/Reference' element={<Reference />}/> 
+        <Route path='/Feedback' element={<Feedback />}/>
+      </Routes> 
+      
+        
     </div>
   );
 }
