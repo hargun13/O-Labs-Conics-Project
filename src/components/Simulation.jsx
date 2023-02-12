@@ -14,7 +14,7 @@ function Simulation() {
             
       <Frame />
       <div className='border-r-2 border-b-2 border-l-2 rounded-xl py-10 px-5'>
-      SIMULATION WILL COME HERE    
+      SIMULATION WILL COME HERE  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />  
       </div>
 
       </div>

@@ -12,7 +12,7 @@ function Theory() {
       <Navbar />
 
       {/* Content for Theory page */}
-      <div className='px-6 md:px-10 py-2 md:py-10 rounded-xl m-4 bg-white'>
+      <div className='px-6 md:px-10 py-2 md:py-5 rounded-xl m-4 bg-white'>
             
       <Frame />
 
@@ -36,7 +36,7 @@ function Theory() {
         
         <h1 className='text-black text-3xl underline py-1'>General Equation for any Conic Section:</h1>
         <p className='text-xl font-thin pb-2 pt-5'>Each of these conic sections can be described using an equation. The general equation for a conic section is:</p>
-        <p className='text-sm font-extrabold md:font-thin md:text-5xl pb-5 pt-5 border-2 border-black text-center'>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</p>
+        <p className='text-sm font  -extrabold md:font-thin md:text-5xl pb-5 pt-5 border-2 border-black text-center'> Ax<sup>2</sup> + Bxy + Cy<sup>2</sup> + Dx + Ey + F = 0</p>
         <p className='text-xl font-thin pb-2 pt-5'>Where A, B, C, D, E, and F are constants. By transforming the equation, it can be transformed into standard form for each of the four conic sections.</p>
         <p className='text-xl font-thin pb-2 pt-5'>The properties of conic sections, such as the focus, directrix, eccentricity, and other characteristics, can be determined from the standard form equation.</p>
 

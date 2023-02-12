@@ -33,95 +33,102 @@ function Navbar() {
 
 
         {/* navbar part 2 with white background*/}
-        <div className='text-gray-600 bg-white flex justify-between   h-13 rounded-xl items-center '>
+        <div className='text-gray-600 bg-white flex  h-13 rounded-xl  items-center justify-between   '>
             
-        <nav aria-label="primary" class="relative mx-4 h-13 hidden pb-4 md:pb-0 md:flex rounded-xl bg-white justify-between  md:flex-row">
-        
-        <div className='flex'>    
-
-                <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm rounded-l-xl'>Home</div>    
+        <div aria-label="primary" class="  h-13 md:flex hidden pb-4 md:pb-0 justify-between  rounded-xl bg-white  ">
             
-                <div class="relative group hover:bg-blue-500  ">
+            <div className='float-left'>
+                
+                <div className='flex rounded-l-xl'>    
+                    <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm rounded-l-xl'>Home</div>    
+                
+                    <div class="relative group hover:bg-blue-500  ">
 
-                    <button class="flex w-full mt-3  font-bold md:w-auto md:inline md:mt-0 px-4 p-1 py-4 hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify center  ">
-                        <span className='flex items-center justify-center '>About <IoMdArrowDropdown /></span>
-                    </button>
+                        <button class="flex w-full mt-3  font-bold md:w-auto md:inline md:mt-0 px-4 p-1 py-4 hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify center  ">
+                            <span className='flex items-center justify-center '>About <IoMdArrowDropdown /></span>
+                        </button>
 
-                    <div class="absolute  hidden group-hover:block">   
-                        <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
+                        <div class="absolute  hidden group-hover:block">   
+                            <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
 
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>FAQ</p>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>FAQ</p>
+                            </div>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>System Requirements</p>
+                            </div>
+
+                            </div>
                         </div>
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>System Requirements</p>
+
+                    </div>  
+
+                    <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>In the news</div>    
+
+                    <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Workshops</div>    
+
+                    <div class="relative group hover:bg-blue-500 place-content-center ">
+
+                        <button class="flex w-full mt-3 md:w-auto  md:mt-0  p-4  font-bold hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify-center  ">
+                            <span className='flex items-center justify-center'>Training <IoMdArrowDropdown /></span>
+                        </button>
+
+                        <div class="absolute  hidden group-hover:block">   
+                            <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
+
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>Training Calender</p>
+                            </div>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>Request for Training</p>
+                            </div>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>Training Status</p>
+                            </div>
+
+                            </div>
                         </div>
 
-                        </div>
                     </div>
 
-                </div>  
+                    <div class="relative group hover:bg-blue-500  ">
 
-                <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>In the news</div>    
+                        <button class="flex w-full mt-3  font-bold md:w-auto md:inline md:mt-0  p-4 hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify center  ">
+                            <span className='flex items-center justify-center'>Registration <IoMdArrowDropdown /></span>
+                        </button>
 
-                <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Workshops</div>    
+                        <div class="absolute  hidden group-hover:block">   
+                            <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
 
-                <div class="relative group hover:bg-blue-500  ">
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>For Teachers</p>
+                            </div>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>For Students</p>
+                            </div>
+                            <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                <p>For Schools</p>
+                            </div>
 
-                    <button class="flex w-full mt-3 md:w-auto md:inline md:mt-0 ml-4 p-1 py-4 font-bold hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify center  ">
-                        <span className='flex items-center justify-center'>Training <IoMdArrowDropdown /></span>
-                    </button>
-
-                    <div class="absolute  hidden group-hover:block">   
-                        <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
-
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>Training Calender</p>
-                        </div>
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>Request for Training</p>
-                        </div>
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>Training Status</p>
+                            </div>
                         </div>
 
-                        </div>
                     </div>
 
+                    <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Contact Us</div>    
+
+                    <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Login</div>    
                 </div>
 
-                <div class="relative group hover:bg-blue-500  ">
-
-                    <button class="flex w-full mt-3  font-bold md:w-auto md:inline md:mt-0 ml-4 p-1 py-4 hover:text-white text-gray-600 text-sm  cursor-pointer items-center justify center  ">
-                        <span className='flex items-center justify-center'>Registration <IoMdArrowDropdown /></span>
-                    </button>
-
-                    <div class="absolute  hidden group-hover:block">   
-                        <div class=" pt-2 pb-4 w-60 bg-white shadow-lg">
-
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>For Teachers</p>
-                        </div>
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>For Students</p>
-                        </div>
-                        <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>For Schools</p>
-                        </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Contact Us</div>    
-
-                <div className='px-4 py-4 font-bold text-gray-600 justify-center items-center cursor-pointer hover:text-white hover:bg-blue-500 text-sm '>Login</div>    
             </div>
+            
+            {/* language selector seperation -- flag image */}
 
-            <div class="relative  group hover:bg-blue-500 rounded-r-xl float-right items-end">
+            <div className='absolute left-[93%]'>
 
-                    <button class="flex w-full mt-3  font-bold md:w-auto md:inline md:mt-0 ml-4 p-1 py-4 text-gray-600 text-sm   cursor-pointer items-center justify center  ">
+                <div class="relative  group hover:bg-blue-500 rounded-r-xl ">
+
+                    <button class="flex w-full p-4 h-full rounded-r-xl cursor-pointer items-center justify-center  ">
                         <span className='flex items-center justify-center '><img src={flag}/></span>
                     </button>
 
@@ -132,13 +139,13 @@ function Navbar() {
                             <p>English</p>
                         </div>
                         <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>English</p>
+                            <p>हिंदी   </p>
                         </div>
                         <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
                             <p>English</p>
                         </div>
                         <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
-                            <p>English</p>
+                            <p>मराठी</p>
                         </div>
                         <div class="px-4 text-gray-600 font-bold text-sm py-2 border-b-2 hover:bg-blue-500 hover:text-white cursor-pointer">
                             <p>English</p>
@@ -146,11 +153,12 @@ function Navbar() {
 
                         </div>
                     </div>
+                </div>
 
-            </div>
+            </div>            
             
             
-        </nav>
+        </div>
             
         </div>
     </div>

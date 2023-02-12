@@ -10,7 +10,7 @@ function Self_Evaluation() {
       <Navbar />
 
       {/* Content for Evaluation page */}
-      <div className='px-6 md:px-10 py-2 md:py-10 rounded-xl m-4 bg-white'>
+      <div className='px-6 md:px-10 py-2 md:py-5 rounded-xl m-4 bg-white'>
             
       <Frame />
 

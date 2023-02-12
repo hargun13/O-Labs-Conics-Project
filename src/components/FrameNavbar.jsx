@@ -5,6 +5,7 @@ import simulation from './assets/simulator_logo.png';
 import reference from './assets/reference_logo.png';
 import feedback from './assets/feedback_logo.png';
 import {FaBars,FaTimes} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 // import Theory from './Theory';
 // import Animation from './Animation';
 // import Simulation from './Simulation';
@@ -41,14 +42,14 @@ function Frame() {
         {/* Main Division */}
         {/* navbar */}
         <div className='flex justify-between '>
-          <a href='/Theory'><li className='flex md:px-10 py-2 justify-center items-center md:border md:border-gray-300 font-medium text-gray-700 hover:text-blue-500 rounded-t-2xl cursor-pointer '><img src={theory} alt='navlogo'/>Theory</li></a>
+          <Link to='/Theory'><li className='flex md:px-10 py-2 justify-center items-center md:border md:border-gray-300 font-medium text-gray-700 hover:text-blue-500 rounded-t-2xl cursor-pointer '><img src={theory} alt='navlogo'/>Theory</li></Link>
           <ul className='md:flex hidden w-screen'>
             
-            <a href='/Animation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={animation} alt='navlogo'/>Animation</li></a>
-            <a href='/Simulation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={simulation} alt='navlogo' />Simulator</li></a>
-            <a href='/SelfEvaluation'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={animation} alt='navlogo'/>Self evalutaion</li></a>
-            <a href='/Reference'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={reference} alt='navlogo'/>Reference</li></a>
-            <a href='/Feedback'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={feedback} alt='navlogo'/>Feedback</li></a>
+            <Link to='/Animation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={animation} alt='navlogo'/>Animation</li></Link>
+            <Link to='/Simulation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={simulation} alt='navlogo' />Simulator</li></Link>
+            <Link to='/SelfEvaluation'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={animation} alt='navlogo'/>Self evalutaion</li></Link>
+            <Link to='/Reference'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={reference} alt='navlogo'/>Reference</li></Link>
+            <Link to='/Feedback'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-t-2xl cursor-pointer hover:text-blue-500'><img src={feedback} alt='navlogo'/>Feedback</li></Link>
           
           </ul>
 
@@ -60,12 +61,12 @@ function Frame() {
             
             <ul className='pt-10 uppercase'>
 
-              <a href='/Theory'><li className='flex md:px-10 justify-center items-center border md:border-gray-300 font-medium text-gray-700 hover:text-blue-500 rounded-2xl cursor-pointer py-2 my-5'><img src={theory} alt='navlogo'/>Theory</li></a>
-              <a href='/Animation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={animation} alt='navlogo'/>Animation</li></a>
-              <a href='/Simulation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={simulation} alt='navlogo' />Simulator</li></a>
-              <a href='/SelfEvaluation'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={animation} alt='navlogo'/>Self evalutaion</li></a>
-              <a href='/Reference'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={reference} alt='navlogo'/>Reference</li></a>
-              <a href='/Feedback'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={feedback} alt='navlogo'/>Feedback</li></a>
+              <Link to='/Theory'><li className='flex md:px-10 justify-center items-center border md:border-gray-300 font-medium text-gray-700 hover:text-blue-500 rounded-2xl cursor-pointer py-2 my-5'><img src={theory} alt='navlogo'/>Theory</li></Link>
+              <Link to='/Animation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={animation} alt='navlogo'/>Animation</li></Link>
+              <Link to='/Simulation' ><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={simulation} alt='navlogo' />Simulator</li></Link>
+              <Link to='/SelfEvaluation'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={animation} alt='navlogo'/>Self evalutaion</li></Link>
+              <Link to='/Reference'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={reference} alt='navlogo'/>Reference</li></Link>
+              <Link to='/Feedback'><li className='flex px-10 py-2 justify-center items-center border border-gray-300 font-medium text-gray-700 rounded-2xl cursor-pointer hover:text-blue-500 my-5'><img src={feedback} alt='navlogo'/>Feedback</li></Link>
 
             </ul>
           </div>
