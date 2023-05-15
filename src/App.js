@@ -11,7 +11,7 @@ import Home from './Home';
 function App() {
   return (
     <div>
-       <Routes>
+      <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/Theory' element={<Theory />}/>
         <Route path='/Animation' element={<Animation />}/>

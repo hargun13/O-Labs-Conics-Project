@@ -33,7 +33,7 @@ function Navbar() {
 
 
         {/* navbar part 2 with white background*/}
-        <div className='text-gray-600 bg-white flex  h-13 rounded-xl  items-center justify-between   '>
+        <div className='text-gray-600 bg-white flex  h-13 rounded-xl   justify-between   '>
             
         <div aria-label="primary" class="  h-13 md:flex hidden pb-4 md:pb-0 justify-between  rounded-xl bg-white  ">
             

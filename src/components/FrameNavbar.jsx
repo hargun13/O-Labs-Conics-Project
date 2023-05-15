@@ -28,7 +28,7 @@ function Frame() {
   <>
     
     <div className='md:px-5 '>
-        <p className='text-[10px] text-gray-500 font-semibold'>
+        <p className='text-[10px] text-gray-500 font-semibold '>
             you are here-&gt;
             home-&gt;
             mathematics-&gt;
