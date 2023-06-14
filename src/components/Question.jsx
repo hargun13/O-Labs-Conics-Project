@@ -25,7 +25,7 @@ const Question = (props) => {
     <div className="p-10">
       <img
         src={changed === false ? undefined : response === true ? Tick : Wrong}
-        alt=""
+        alt={changed === false ? undefined : response === true ? "Tick" : "Wrong"}
         className="relative right-12 top-[60px] "
       />
       <p className="text-3xl py-5">{props.question}</p>
