@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 // import Wrong from "./assets/wrong.gif";
 import Question from "./Question";
 
-function Self_Evaluation() {
+function SelfEvaluation() {
   return (
     <div>
       <Navbar />
@@ -91,4 +91,4 @@ function Self_Evaluation() {
   );
 }
 
-export default Self_Evaluation;
+export default SelfEvaluation;
