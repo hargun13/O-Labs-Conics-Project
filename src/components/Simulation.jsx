@@ -25,7 +25,6 @@ function Simulation() {
             
       <Frame />
       <div className='border-r-2 border-b-2 border-l-2 rounded-xl py-10 px-5'>
-      SIMULATION WILL COME HERE  
 
         <Unity style={{height:"auto", width:"100%"}} 
         unityProvider={unityProvider} />  
