@@ -69,31 +69,31 @@ function SelfEvaluation() {
             {/* question 6 */}
             <Question
               question="6. Which conic section represents a geometric figure that is a closed curve with all points the same distance from the center?"
-              option1="a) Parabola"
-              option2="b) Circle"
-              option3="c) Ellipse"
-              option4="d) Hyperbola"
-              correctResponse="b"
+              option1="A) Parabola"
+              option2="B) Circle"
+              option3="C) Ellipse"
+              option4="D) Hyperbola"
+              correctResponse="B"
             />
             
             {/* question 7 */}
             <Question
               question="7. What is the general shape of a parabola?"
-              option1="a) A straight line"
-              option2="b) A closed loop"
-              option3="c) A U-shaped curve"
-              option4="d) A pair of intersecting lines"
-              correctResponse="c"
+              option1="A) A straight line"
+              option2="B) A closed loop"
+              option3="C) A U-shaped curve"
+              option4="D) A pair of intersecting lines"
+              correctResponse="C"
             />
 
             {/* question 8 */}
             <Question
               question="8. What type of conic section has two separate unbounded curves that mirror each other?"
-              option1="a) Parabola"
-              option2="b) Circle"
-              option3="c) Ellipse"
-              option4="d) Hyperbola"
-              correctResponse="d"
+              option1="A) Parabola"
+              option2="B) Circle"
+              option3="C) Ellipse"
+              option4="D) Hyperbola"
+              correctResponse="D"
             />
 
 
