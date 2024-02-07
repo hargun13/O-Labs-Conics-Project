@@ -8,10 +8,10 @@ import {Unity, useUnityContext}  from 'react-unity-webgl'
 function Simulation() {
 
   const { unityProvider } = useUnityContext({
-    loaderUrl: "./New Build File/Build/New Build File.loader.js",
-    dataUrl: "./New Build File/Build/webgl.data",
-    frameworkUrl: "./New Build File/Build/build.framework.js",
-    codeUrl: "./New Build File/Build/build.wasm",
+    loaderUrl: "./final/Build/Final.loader.js",
+    dataUrl: "./final/Build/webgl.data",
+    frameworkUrl: "./final/Build/build.framework.js",
+    codeUrl: "./final/Build/build.wasm",
   });
 
 

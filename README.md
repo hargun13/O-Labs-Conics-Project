@@ -1,3 +1,30 @@
+# Conic Sections Unity Project
+
+Welcome to the Conic Sections project! This project aims to illustrate the formation and properties of various conic sections using Unity for game development and Blender for animations while leveraging React.Js for the web interface.
+
+## Objective
+
+The objective of this project is to construct different types of conic sections, including circles, ellipses, hyperbolas, and parabolas, and to demonstrate their properties through interactive visualization.
+
+## Features
+
+- Interactive demonstrations of conic sections formation.
+- Real-time manipulation of parameters to observe changes in the shapes.
+- Detailed animations illustrating the formation of each conic section.
+- Educational content explaining the mathematical concepts behind conic sections.
+
+## Demo
+
+You can find a live demo of this project hosted on [Netlify](https://conic-sections-olabs.netlify.app/).
+
+## Resources
+
+- [NCERT Science Laboratory Manuals](https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXI/mathematics/kelm403.pdf)
+- [NCERT Textbooks](https://ncert.nic.in/textbook.php?kemh1=11-16)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
